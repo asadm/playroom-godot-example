@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="SurvivalGame"
-config/features=PackedStringArray("4.2", "Forward Plus")
+run/main_scene="res://scenes/world.tscn"
+config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
 [input]
